@@ -5,6 +5,11 @@
 <generatorConfiguration>
     <!--加载资源文件-->
     <context id="testTables" targetRuntime="MyBatis3">
+
+        <!-- 使用tk时通用mapper所在目录 -->
+        <plugin type="tk.mybatis.mapper.generator.MapperPlugin">
+            <property name="mappers" value="com.sue.my.MyMapper"/>
+        </plugin>
         <commentGenerator>
             <!--是否去除自动生成的注释 true是：false 否-->
             <property name="suppressAllComments" value="true"/>

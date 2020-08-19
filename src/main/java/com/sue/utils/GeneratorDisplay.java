@@ -25,8 +25,8 @@ public class GeneratorDisplay {
 				callback, warnings);
 		myBatisGenerator.generate(null);
 
-	} 
-	
+	}
+
 	public static void main(String[] args) throws Exception {
 		try {
 			GeneratorDisplay generatorSqlmap = new GeneratorDisplay();
@@ -34,6 +34,6 @@ public class GeneratorDisplay {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-		
+
 	}
 }
