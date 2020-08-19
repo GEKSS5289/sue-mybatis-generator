@@ -1,2 +1,2 @@
-# sue-mybatis-generator
-Mybatis 逆向生成器
+# sue-tk-mybatis-generator
+Mybatis tk 逆向生成器
